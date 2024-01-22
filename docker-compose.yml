@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  pg-admin:
+    image: dpage/pgadmin4:latest
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=pgadmin@scilabs.de
+      - PGADMIN_DEFAULT_PASSWORD=password
+    ports:
+      - "80:80"
+
+  timescale-db:
+    image: timescale/timescaledb-postgis:2.3.0-pg11
+    environment:
+      - TIMESCALEDB_TELEMETRY=off
+      - POSTGRES_USER=timescale-user
+      - POSTGRES_PASSWORD=timescale-password
+
+  grafana:
+    image: grafana/grafana:8.5.21
+    environment:
+     - TZ=Europe/Berlin
+     - GF_DEFAULT_INSTANCE_NAME=test
+     - GF_AUTH_BASIC_ENABLED=true
+    ports:
+      - "3000:3000"
