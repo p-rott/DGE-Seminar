@@ -27,6 +27,454 @@ CREATE TABLE IF NOT EXISTS current_weather(
 INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
 VALUES
 (
+    'currentWeather:herne','currentWeather','2024-01-23 10:15:00.173+00','/weather','NULL',900,6.3,16.9,1,0,'2024-01-23 11:15:00+00',2.1,1025.7,1017.2,36.4,74,0,0,3,241
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 10:00:00.132+00','/weather','NULL',900,6.2,16.6,1,0,'2024-01-23 11:00:00+00',2,1025.6,1017.1,36.4,75,0,0,3,240
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 09:45:00.097+00','/weather','NULL',900,6.1,16.6,1,0,'2024-01-23 10:45:00+00',1.9,1025.5,1017,39.2,75,0,0,2,240
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 09:30:00.165+00','/weather','NULL',900,5.9,16.3,1,0,'2024-01-23 10:30:00+00',1.8,1025.3,1016.8,39.2,76,0,0,2,239
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 09:15:00.099+00','/weather','NULL',900,5.8,16.1,1,0,'2024-01-23 10:15:00+00',1.7,1025.1,1016.6,39.2,77,0,0,2,241
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 09:00:00.094+00','/weather','NULL',900,5.8,16.1,1,0,'2024-01-23 10:00:00+00',1.6,1024.9,1016.4,39.2,77,0,0,2,241
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 08:45:00.105+00','/weather','NULL',900,5.8,16.4,1,0,'2024-01-23 09:45:00+00',1.6,1024.8,1016.3,40.7,77,0,0,2,241
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 08:30:00.093+00','/weather','NULL',900,5.8,17.1,1,0,'2024-01-23 09:30:00+00',1.6,1024.8,1016.3,40.7,77,0,0,2,242
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 08:15:00.09+00','/weather','NULL',900,5.9,17.7,1,0,'2024-01-23 09:15:00+00',1.6,1024.7,1016.2,40.7,77,0,0,2,243
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 08:00:00.09+00','/weather','NULL',900,5.9,18,1,0,'2024-01-23 09:00:00+00',1.6,1024.5,1016,40.7,77,0,0,2,244
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 07:45:00.073+00','/weather','NULL',900,6,18.4,1,0,'2024-01-23 08:45:00+00',1.6,1024.3,1015.8,41,77,0,0,3,244
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 07:30:00.068+00','/weather','NULL',900,5.7,17.6,1,0,'2024-01-23 08:30:00+00',1.4,1024,1015.5,40.3,78,0,0,2,242
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 07:15:00.157+00','/weather','NULL',900,5.8,18.2,0,0,'2024-01-23 08:15:00+00',1.4,1023.6,1015.1,40.3,78,0,0,2,243
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 07:00:00.084+00','/weather','NULL',900,5.9,18.4,0,0,'2024-01-23 08:00:00+00',1.5,1023.3,1014.8,40.3,77,0,0,2,244
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 06:45:00.181+00','/weather','NULL',900,5.9,18.5,0,0,'2024-01-23 07:45:00+00',1.5,1023.2,1014.7,42.8,76,0,0,2,246
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 06:30:00.144+00','/weather','NULL',900,6,18.4,0,0,'2024-01-23 07:30:00+00',1.5,1023,1014.5,42.8,76,0,0,2,247
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 06:15:00.183+00','/weather','NULL',900,6.1,18.5,0,0,'2024-01-23 07:15:00+00',1.6,1022.7,1014.2,42.8,75,0,0,2,249
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 06:00:00.181+00','/weather','NULL',900,6.2,18.7,0,0,'2024-01-23 07:00:00+00',1.7,1022.5,1014,42.8,74,0,0,2,251
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 05:45:00.17+00','/weather','NULL',900,6.3,19,0,0,'2024-01-23 06:45:00+00',1.7,1022.3,1013.8,43.6,73,0,0,3,251
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 05:30:00.226+00','/weather','NULL',900,6.4,18.9,0,0,'2024-01-23 06:30:00+00',1.9,1022,1013.6,43.6,73,0,0,3,252
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 05:15:00.141+00','/weather','NULL',900,6.6,19.2,0,0,'2024-01-23 06:15:00+00',1.9,1021.7,1013.3,43.6,72,0,0,3,253
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 05:00:00.109+00','/weather','NULL',900,6.7,19.5,0,0,'2024-01-23 06:00:00+00',2,1021.4,1013,43.6,71,0,0,3,254
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 04:45:00.234+00','/weather','NULL',900,6.8,19.5,0,0,'2024-01-23 05:45:00+00',2.1,1021.2,1012.8,43.2,71,0,0,3,254
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 04:30:00.19+00','/weather','NULL',900,6.9,19.7,0,0,'2024-01-23 05:30:00+00',2.2,1021,1012.6,43.2,70,0,0,3,255
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 04:15:00.172+00','/weather','NULL',900,6.4,19.5,0,0,'2024-01-23 05:15:00+00',1.8,1020.3,1011.9,45,73,0,0,2,251
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 04:00:00.183+00','/weather','NULL',900,6.5,19.7,0,0,'2024-01-23 05:00:00+00',1.8,1020,1011.6,45,73,0,0,2,252
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 03:45:00.208+00','/weather','NULL',900,6.6,19.5,0,0,'2024-01-23 04:45:00+00',1.9,1019.8,1011.4,52.2,73,0,0,80,254
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 03:30:00.176+00','/weather','NULL',900,6.6,18.8,0,0,'2024-01-23 04:30:00+00',2.1,1019.6,1011.2,52.2,74,0,0,80,258
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 03:15:00.199+00','/weather','NULL',900,6.7,18.5,0,0,'2024-01-23 04:15:00+00',2.3,1019.4,1011,52.2,75,0,0,80,262
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 03:00:00.181+00','/weather','NULL',900,6.8,18.5,0,0,'2024-01-23 04:00:00+00',2.4,1019.1,1010.7,52.2,75,0,0,80,263
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 02:45:00.097+00','/weather','NULL',900,6.9,18.9,0,0.8,'2024-01-23 03:45:00+00',2.4,1018.9,1010.5,50.4,74,0,0,3,261
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 02:30:00.089+00','/weather','NULL',900,7.1,19.9,0,0,'2024-01-23 03:30:00+00',2.4,1018.6,1010.2,50.4,73,0,0,3,257
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 02:15:00.097+00','/weather','NULL',900,7.2,20.9,0,0,'2024-01-23 03:15:00+00',2.4,1018.2,1009.8,50.4,72,0,0,3,255
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 02:00:00.098+00','/weather','NULL',900,7.3,21.4,0,0,'2024-01-23 03:00:00+00',2.5,1017.9,1009.5,50.4,72,0,0,3,253
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 01:45:00.113+00','/weather','NULL',900,7.3,21.4,0,0,'2024-01-23 02:45:00+00',2.6,1017.7,1009.3,54.7,73,0.1,0,80,253
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 01:30:00.087+00','/weather','NULL',900,7.4,21.7,0,0,'2024-01-23 02:30:00+00',2.7,1017.5,1009.1,54.7,74,0.1,0,80,255
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 01:15:00.172+00','/weather','NULL',900,7.2,21.1,0,0,'2024-01-23 02:15:00+00',2.5,1017.1,1008.7,53.3,77,0.1,0,80,256
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 01:00:00.081+00','/weather','NULL',900,7.2,21.2,0,0,'2024-01-23 02:00:00+00',2.6,1016.9,1008.5,53.3,78,0.1,0,80,255
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 00:45:00.079+00','/weather','NULL',900,7.2,21.2,0,0,'2024-01-23 01:45:00+00',2.7,1016.7,1008.3,54.7,78,0.1,0,80,255
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 00:30:00.12+00','/weather','NULL',900,7.2,21.3,0,0.1,'2024-01-23 01:30:00+00',2.7,1016.5,1008.1,54.7,79,0.1,0,80,254
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 00:15:00.115+00','/weather','NULL',900,7.3,21.4,0,0.1,'2024-01-23 01:15:00+00',2.7,1016.2,1007.8,54.7,79,0.1,0,80,253
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-23 00:00:00.184+00','/weather','NULL',900,7.3,21.5,0,0.1,'2024-01-23 01:00:00+00',2.8,1015.9,1007.5,54.7,79,0.1,0,80,252
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 23:45:00.099+00','/weather','NULL',900,7.4,21.6,0,0.1,'2024-01-23 00:45:00+00',2.8,1015.6,1007.2,52.6,79,0.1,0,80,252
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 23:30:00.085+00','/weather','NULL',900,7.4,21.7,0,0.1,'2024-01-23 00:30:00+00',2.9,1015.2,1006.8,52.6,79,0.1,0,80,251
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 23:15:00.174+00','/weather','NULL',900,7.5,22,0,0.1,'2024-01-23 00:15:00+00',2.9,1014.8,1006.4,52.6,79,0.1,0,80,249
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 23:00:00.149+00','/weather','NULL',900,7.6,21.9,0,0.1,'2024-01-23 00:00:00+00',3,1014.5,1006.1,52.6,79,0.1,0,80,247
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 22:45:00.106+00','/weather','NULL',900,7.7,21.6,0,0.5,'2024-01-22 23:45:00+00',3.1,1014.4,1006,47.9,78,0,0,80,244
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 22:30:00.212+00','/weather','NULL',900,7.8,21.1,0,0.1,'2024-01-22 23:30:00+00',3.3,1014.2,1005.9,47.9,78,0,0,80,240
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 22:15:00.118+00','/weather','NULL',900,7.5,22.4,0,0.1,'2024-01-22 23:15:00+00',2.9,1014.4,1006,49,82,0.1,0,80,242
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 22:00:00.169+00','/weather','NULL',900,7.6,22.6,0,0.1,'2024-01-22 23:00:00+00',2.9,1014.2,1005.8,49,81,0.1,0,80,239
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 21:45:00.094+00','/weather','NULL',900,7.6,22.2,0,0,'2024-01-22 22:45:00+00',3,1014.2,1005.8,53.3,80,0,0,80,238
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 21:30:00.106+00','/weather','NULL',900,7.6,21.8,0,0,'2024-01-22 22:30:00+00',3.1,1014.2,1005.8,53.3,80,0,0,80,236
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 21:15:00.09+00','/weather','NULL',900,7.6,21.1,0,0,'2024-01-22 22:15:00+00',3.1,1014.2,1005.8,53.3,79,0,0,80,233
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 21:00:00.092+00','/weather','NULL',900,7.7,20.8,0,0,'2024-01-22 22:00:00+00',3.2,1014.2,1005.9,53.3,78,0,0,80,233
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 20:45:00.167+00','/weather','NULL',900,7.8,20.9,0,0,'2024-01-22 21:45:00+00',3.3,1014.2,1005.9,49,77,0,0,80,234
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 20:30:00.205+00','/weather','NULL',900,7.8,21.3,0,0,'2024-01-22 21:30:00+00',3.3,1014.2,1005.9,49,76,0,0,80,236
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 20:15:00.084+00','/weather','NULL',900,8,21.2,0,0,'2024-01-22 21:15:00+00',3.5,1014.1,1005.8,49,75,0,0,80,238
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 20:00:00.094+00','/weather','NULL',900,8.1,21.2,0,0,'2024-01-22 21:00:00+00',3.5,1014,1005.7,49,74,0,0,80,238
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 19:45:00.18+00','/weather','NULL',900,8.1,20.7,0,0,'2024-01-22 20:45:00+00',3.6,1013.8,1005.5,41.8,73,0,0,2,235
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 19:30:00.09+00','/weather','NULL',900,8.2,20.2,0,0,'2024-01-22 20:30:00+00',3.8,1013.6,1005.3,41.8,72,0,0,2,231
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 19:15:00.109+00','/weather','NULL',900,8,19.2,0,0,'2024-01-22 20:15:00+00',3.7,1013.1,1004.8,43.6,75,0,0,2,230
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 19:00:00.096+00','/weather','NULL',900,8.1,18.7,0,0,'2024-01-22 20:00:00+00',3.9,1012.9,1004.6,43.6,75,0,0,2,230
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 18:45:00.103+00','/weather','NULL',900,8.1,18.2,0,0,'2024-01-22 19:45:00+00',4,1012.8,1004.5,43.6,75,0,0,2,232
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2024-01-22 18:30:00.091+00','/weather','NULL',900,8.2,17.8,0,0,'2024-01-22 19:30:00+00',4.2,1012.6,1004.3,43.6,75,0,0,2,234
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
     'currentWeather:herne','currentWeather','2024-01-22 18:15:00.103+00','/weather','NULL',900,8.3,17.2,0,0,'2024-01-22 19:15:00+00',4.4,1012.3,1004,43.6,75,0,0,2,237
 );
 
@@ -41810,6 +42258,13 @@ VALUES
 INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
 VALUES
 (
+    'currentWeather:herne','currentWeather','2023-11-21 13:49:30.065+00','/weather','NULL',900,9,11.4,1,0,'2023-11-21 14:45:00+00',6.6,1018.1,1009.8,18.4,89,0,0,3,24
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
     'currentWeather:herne','currentWeather','2023-11-21 13:49:35.079+00','/weather','NULL',900,9,11.4,1,0,'2023-11-21 14:45:00+00',6.6,1018.1,1009.8,18.4,89,0,0,3,24
 );
 
@@ -41817,7 +42272,14 @@ VALUES
 INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
 VALUES
 (
-    'currentWeather:herne','currentWeather','2023-11-21 13:49:30.065+00','/weather','NULL',900,9,11.4,1,0,'2023-11-21 14:45:00+00',6.6,1018.1,1009.8,18.4,89,0,0,3,24
+    'currentWeather:herne','currentWeather','2023-11-21 13:49:10.053+00','/weather','NULL',900,9,11.4,1,0,'2023-11-21 14:45:00+00',6.6,1018.1,1009.8,18.4,89,0,0,3,24
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2023-11-21 13:49:05.088+00','/weather','NULL',900,9,11.4,1,0,'2023-11-21 14:45:00+00',6.6,1018.1,1009.8,18.4,89,0,0,3,24
 );
 
 /* INSERT QUERY */
@@ -41839,20 +42301,6 @@ INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_ser
 VALUES
 (
     'currentWeather:herne','currentWeather','2023-11-21 13:49:15.058+00','/weather','NULL',900,9,11.4,1,0,'2023-11-21 14:45:00+00',6.6,1018.1,1009.8,18.4,89,0,0,3,24
-);
-
-/* INSERT QUERY */
-INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
-VALUES
-(
-    'currentWeather:herne','currentWeather','2023-11-21 13:49:10.053+00','/weather','NULL',900,9,11.4,1,0,'2023-11-21 14:45:00+00',6.6,1018.1,1009.8,18.4,89,0,0,3,24
-);
-
-/* INSERT QUERY */
-INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
-VALUES
-(
-    'currentWeather:herne','currentWeather','2023-11-21 13:49:05.088+00','/weather','NULL',900,9,11.4,1,0,'2023-11-21 14:45:00+00',6.6,1018.1,1009.8,18.4,89,0,0,3,24
 );
 
 /* INSERT QUERY */
@@ -42678,48 +43126,6 @@ VALUES
 INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
 VALUES
 (
-    'currentWeather:herne','currentWeather','2023-11-20 10:04:20.044+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
-);
-
-/* INSERT QUERY */
-INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
-VALUES
-(
-    'currentWeather:herne','currentWeather','2023-11-20 10:04:10.073+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
-);
-
-/* INSERT QUERY */
-INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
-VALUES
-(
-    'currentWeather:herne','currentWeather','2023-11-20 10:04:00.067+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
-);
-
-/* INSERT QUERY */
-INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
-VALUES
-(
-    'currentWeather:herne','currentWeather','2023-11-20 10:03:50.073+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
-);
-
-/* INSERT QUERY */
-INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
-VALUES
-(
-    'currentWeather:herne','currentWeather','2023-11-20 10:03:40.082+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
-);
-
-/* INSERT QUERY */
-INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
-VALUES
-(
-    'currentWeather:herne','currentWeather','2023-11-20 10:03:30.051+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
-);
-
-/* INSERT QUERY */
-INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
-VALUES
-(
     'currentWeather:herne','currentWeather','2023-11-20 10:03:20.065+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
 );
 
@@ -42804,6 +43210,13 @@ VALUES
 INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
 VALUES
 (
+    'currentWeather:herne','currentWeather','2023-11-20 10:01:10.077+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
     'currentWeather:herne','currentWeather','2023-11-20 10:01:20.091+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
 );
 
@@ -42811,5 +43224,40 @@ VALUES
 INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
 VALUES
 (
-    'currentWeather:herne','currentWeather','2023-11-20 10:01:10.077+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
+    'currentWeather:herne','currentWeather','2023-11-20 10:04:20.044+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2023-11-20 10:04:10.073+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2023-11-20 10:04:00.067+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2023-11-20 10:03:50.073+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2023-11-20 10:03:40.082+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
+);
+
+/* INSERT QUERY */
+INSERT INTO weather.current_weather( entity_id,entity_type,time_index,fiware_servicepath,__original_ngsi_entity__,interval,temperature_2m,windspeed_10m,is_day,precipitation,time,apparent_temperature,pressure_msl,surface_pressure,windgusts_10m,relativehumidity_2m,showers,snowfall,weathercode,winddirection_10m )
+VALUES
+(
+    'currentWeather:herne','currentWeather','2023-11-20 10:03:30.051+00','/weather','NULL',900,10.6,19.5,1,0,'2023-11-20 11:00:00+00',7.1,1009.3,1001.1,47.5,79,0,0,3,245
 );
